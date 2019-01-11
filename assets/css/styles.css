@@ -67,7 +67,16 @@ section p {
 }
 
 @media(max-width: 800px){
-    padding: 50px 20px;
+    header {
+        padding: 50px 20px;
+        flex-direction: column;
+
+    }
+    
+    header h2 {
+        margin-bottom: 15px;
+    }
+
 }
 /* Header Styles */
 header {
