@@ -65,6 +65,10 @@ section p {
     line-height: 2;
     padding: 0 20px;
 }
+
+@media(max-width: 800px){
+    padding: 50px 20px;
+}
 /* Header Styles */
 header {
     position: absolute;
@@ -143,7 +147,6 @@ header nav li {
 }
 
 /* Destinations Section */
-
 .destinations .grid li {
     height: 350px;
     padding:20px;
@@ -160,7 +163,6 @@ header nav li {
 }
 
 /* Packages Section */
-
 .packages .grid li {
     padding: 50px;
     flex-basis: 50%;
@@ -184,7 +186,6 @@ header nav li {
 }
 
 /* Contact Section */
-
 .contact form {
     display: flex;
     align-items: center;
@@ -195,6 +196,7 @@ header nav li {
 
 .contact form .btn {
     padding: 18px 42px;
+    background-color: #3f51b5;
 }
 
 .contact form input {
@@ -208,7 +210,6 @@ header nav li {
 }
 
 /* Footer Section */
-
 footer{
     display: flex;
     align-items: center;
