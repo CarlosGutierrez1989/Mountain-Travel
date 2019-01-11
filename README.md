@@ -1,3 +1,3 @@
 # Mountain-Travel
 
-Mountain Travel is one of many projects that i'll to share on git hub. The goal of these projects is practice and improve my web development skills like HTML5 and CSS3. Please ignore bad practices about project managment it doesn't the focus of this project.
+Mountain Travel is one of many projects that i'll to share on git hub. The goal of these projects is practice and improve my web development skills like HTML5 and CSS3. 
