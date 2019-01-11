@@ -53,11 +53,10 @@ hr {
     border: 0;
     margin-bottom: 50px;
 }
-section h3.title {
+section h3 .title {
     text-transform: capitalize;
     font: bold 32px "Open Sans", sans-serif; 
     margin-bottom: 30px;
-    text-align: center;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -181,5 +180,5 @@ header nav li {
     font-weight: 300;
     line-height: 1.5;
     margin: 40px 0 25px;
-
+    text-align: center;
 }
