@@ -185,14 +185,14 @@ header nav li {
     flex-basis: 70%;
 }
 
-@media(max-width: 1100px) {
+@media (max-width: 1100px) {
     .destinations .grid li.small,
     .destinations .gird li.large {
         flex-basis:50%;
     }
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
     .destinations .grid li.small,
     .destinations .gird li.large {
         flex-basis:100%;
@@ -213,6 +213,12 @@ header nav li {
     margin: 25px 0;
 }
 
+@media (max-width: 800px) {
+    .packages .grid li {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+}
 /* Testimonials Section */
 .testimonials .quote {
     font-size: 20px;
@@ -220,6 +226,15 @@ header nav li {
     line-height: 1.5;
     margin: 40px 0 25px;
     text-align: center;
+}
+@media (max-width: 800px) {
+    .testimonials .quote {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .testimonials author {
+        font-size: 14px;
+    }
 }
 
 /* Contact Section */
