@@ -185,14 +185,14 @@ header nav li {
     flex-basis: 70%;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1100px) {
     .destinations .grid li.small,
     .destinations .gird li.large {
         flex-basis:50%;
     }
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 800px) {
     .destinations .grid li.small,
     .destinations .gird li.large {
         flex-basis:100%;
